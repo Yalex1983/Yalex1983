@@ -110,12 +110,12 @@ console.log(" Fecha en formato DDMMAAAA: " + fecha)
 console.log(fecha.charAt(0)+fecha.charAt(1)+"/"+fecha.charAt(2)+fecha.charAt(3)+"/"+fecha.charAt(4)+fecha.charAt(5)+fecha.charAt(6)+fecha.charAt(7))
 ```
 #### Solución N°2
-```jasvascript
+```javascript
 let fecha = (prompt("Ingrese un numero formato fecha DDMMAAAA: "));
 console.log(" Fecha en formato DDMMAAAA: " + fecha)
-let año = parseInt(fecha % 10000)
-let dia = parseInt(fecha/1000000)
-let mes = parseInt((fecha/10000)%100)
+let año = parseInt(fecha % 10000);
+let dia = parseInt(fecha/1000000);
+let mes = parseInt((fecha/10000)%100);
 console.log(dia + '/' + mes + '/' + año);
 ```
 ### ejercicio_12.js
