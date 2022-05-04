@@ -31,7 +31,7 @@ console.log("El tercer numero es: " +ter_num);
 console.log("El resultado de la multiplicación es: " +mult);
 ```
 ### ejercicio_4.js
-Escribir un programa que solicite al usuario ingresar la cantidad de kilómetros recorridos por una motocicleta y la cantidad de litros de combustible que consumió durante ese recorrido. Mostar el consumo de combustible por kilometro 
+Escribir un programa que solicite al usuario ingresar la cantidad de kilómetros recorridos por una motocicleta y la cantidad de litros de combustible que consumió durante ese recorrido. Mostar el consumo de combustible por kilómetro
 ```javascript
 var kilometros = parseFloat(prompt("Ingrese los kilometros recorridos: "));
 var consumo = parseFloat(prompt("Ingrese los litros de combustible consumidos: "));
@@ -41,7 +41,7 @@ var litrosxKm =kilometros/consumo
 console.log("El consumo por kilometro es : " +litrosxKm + " litros")
 ```
 ### ejercicio_5.js
-Escribir un programa que solicite al usuario el ingreso de una  temperartura en escala Fahrenheit (debe permitir decimales) y le muestre el equivalente en grados Celcius. La formula para este calculo es celcius = (5/9)*(Fahrenheit-32)
+Escribir un programa que solicite al usuario el ingreso de una temperatura en escala Fahrenheit (debe permitir decimales) y le muestre el equivalente en grados Celsius. La fórmula para este cálculo es Celsius = (5/9) * (Fahrenheit-32)
 ```javascript
 var tem_far = parseFloat(prompt("Ingrese la tempreatura en Fahrenheit: "));
 var temp_celsius = parseFloat((5/9)*(tem_far-32));
@@ -49,7 +49,7 @@ console.log("La temperatura en grados Fahrenheit es: "+tem_far);
 console.log("la temperatura en grados Celsius es: "+temp_celsius);
 ```
 ### ejercicio_6.js
-Escribir un programa que solicite al usuario ingresar tres numeros para luego mostrarle el promedio de los tres.
+Escribir un programa que solicite al usuario ingresar tres números para luego mostrarle el promedio de los tres.
 ```javascript
 var num_1 = parseFloat(prompt("Ingrese el primer número: "));
 var num_2 = parseFloat(prompt("Ingrese el segundo número: "));
@@ -79,7 +79,7 @@ var union = palabra_1+ " " + palabra_2
 console.log(union);
 ```
 ### ejercicio_9.js
-Escribir un programa que solicite al usuario el ingreso de un texto y almacene ese texto en una variable. A contonuación, mostraren pantalla la primera letra del texto ingresado. Luego solcictar que ingrese un numero menor a la cantidad de caracteres que tiene el texto que ongresó (por ejemplo, si escribe la palabra “HOLA”, tendrá que ser un numero entre 0 y 3) y almacenar ese número en una variable llamada indice. Mostar en pantalla el carácter del texto ubicado en la posición dada por indice.
+Escribir un programa que solicite al usuario el ingreso de un texto y almacene ese texto en una variable. A continuación, mostraren pantalla la primera letra del texto ingresado. Luego solicitar que ingrese un número menor a la cantidad de caracteres que tiene el texto que ingresó (por ejemplo, si escribe la palabra “HOLA”, tendrá que ser un numero entre 0 y 3) y almacenar ese número en una variable llamada índice. Mostar en pantalla el carácter del texto ubicado en la posición dada por índice.
 ```javascript
 let texto = (prompt("Ingrese un texto: "));
 console.log("El texto es: "+ texto);
@@ -89,7 +89,7 @@ console.log("El numero menor que " + texto.length + " es: " +indice)
 console.log("El caracter en la posición " + indice +" es: " + texto.charAt(indice));
 ```
 ### ejercicio_10.js
-Escribir un programa que solicite al ususario que ingrese cuántos shows musicales ha visto en el último año y almacene ese número en una variable. A continuación mostrar un valor de verdad (True o False) que indique si ha visto mas de tres shows. 
+Escribir un programa que solicite al usuario que ingrese cuántos shows musicales ha visto en el último año y almacene ese número en una variable. A continuación, mostrar un valor de verdad (True o False) que indique si ha visto más de tres shows
 ```javascript
 let show = (prompt("Cuantos Shows musicales a visto en el último año?: "));
 console.log(" Shows vistos en el ultimo año: " +show)
@@ -102,12 +102,14 @@ else{
 }
 ```
 ### ejercicio_11.js
+Escribir un programa que le solicite al usuario ingresar una fecha formada por números, donde los primeros dos representan el día, los siguientes dos el mes y los últimos cuatro el año (DDMMAAAA). Finalmente, mostrar al usuario la fecha con formato DD / MM / AAAA.
 ```javascript
 let fecha = (prompt("Ingrese un numeroformato fecha DDMMAAA: "));
 console.log(" Fecha en formato DDMMAAAA: " +fecha)
 console.log(fecha.charAt(0)+fecha.charAt(1)+"/"+fecha.charAt(2)+fecha.charAt(3)+"/"+fecha.charAt(4)+fecha.charAt(5)+fecha.charAt(6)+fecha.charAt(7))
 ```
 ### ejercicio_12.js
+Escribir un programa para solicitar al usuario el ingreso de un número entero y que luego imprima un valor de verdad dependiendo de si el número es par o no. Recordar que un número es si el resto, al dividirlo por 2, es 0.
 ```javascript
 let num = (prompt("Ingrese un número entero: "));
 console.log(" El número entero es: " + num)
@@ -120,6 +122,7 @@ else{
 } 
 ```
 ### ejercicio_13.js
+Escribir un programa que solicite al usuario su edad y la guarde en una variable. Que luego solicite la cantidad de artículos comprados en una tienda y la almacene en otra variable. Finalmente, mostrar en pantalla un valor de verdad (True o False) que indique si el usuario es mayor de 18 de edad y además compró más de 1 articulo.
 ```javascript
 let edad = (prompt("Ingresa tu edad: "));
 console.log(" Tu edad: " + edad);
@@ -134,6 +137,7 @@ else{
 }
 ```
 ### ejercicio_14.js
+Escribir un programa que, dada una cadena de texto por el usuario, imprima True si la cantidad de caracteres en la cadena es un número inpar, o False si no lo es.
 ```javascript
 let texto = (prompt("Ingrese una Frase: "));
 console.log("La Frase es: "+ texto);
@@ -146,6 +150,7 @@ else{
 }
 ```
 ### ejercicio_15.js
+Escribir un programa que le pida al usuario ingresar dos palabras y las guarde en dos variables, que luego inprima True si la primera palabra es un menor que la segunda o False si no lo es.
 ```javascript
 let palabra1 = (prompt("Ingrese la primera palabra: "));
 let palabra2 = (prompt("Ingrese la segunda palabra: "));
@@ -161,6 +166,7 @@ else{
 }
 ```
 ### ejercicio_16.js
+Escribir un programa para pedir al usuario su nombre y luego el nombre de otra persona, almacenando cada nombre en una bariable. Luego mostrar en pantalla un valor que indique si: los nombres de ambas personas comienzan con la misma letra ó si terminan con la misma letra. Por ejemplo, silos nombres ingresados son Maria y Marcos, se mostrará True, ya que ambos comienzan con la misma letra. Si los nombres son ricardo y Gonzalo se mostrará True, ya que ambos terminan con la misma letra. Si los nombres son Florencia y Laurato se mostrará False, ya que no coinciden ni la primera ni la última letra.
 ```javascript
 let nombre1 = (prompt("Ingresa tu nombre: "));
 let nombre2 = (prompt("Ingrese otro nombre: "));
@@ -177,6 +183,7 @@ else{
 }
 ```
 ### ejercicio_17.js
+Escribir un programa que, dado un numero entero, muestre su valor absoluto. Recordar que, para los numeros positivos su valor absoluto es igual al numero (el valor absoluto de 52 es 52), mientras que, para los negativos, su valor absoluto es el número multiplicado por -1 ( el valor absoluto de -52 es 52).
 ```javascript
 let numero = parseFloat(prompt ("Ingrese un Número: "));
 let aux
@@ -191,6 +198,7 @@ console.log("Numero Ingresado: " + numero);
 console.log("Numero: " + aux);
 ```
 ### ejercicio_18.js
+Escribir un programa que solicite al usuario el ingreso de dos números diferentes y muestre en pantalla al mayor de los dos.
 ```javascript
 let numero_1 = parseFloat(prompt("Ingrese el primer numero: "));
 let numero_2 = parseFloat(prompt("Ingrese el segundo numero: "));
@@ -206,6 +214,7 @@ console.log("El Segundo numero ingresado es: " + numero_2);
 console.log("El numero mayor es: " + aux);
 ```
 ### ejercicio_19.js
+Escribir un programa que solicite al usuario una letra y, si es vocal, muestre el mensaje “Es vocal”. Verificar si el ususario ingresó un String de mas de un carácter y, en ese caso, informarle que no se puede procesar el dato.
 ```javascript
 let letra = prompt("Ingrese una letra : ");
 function esVocal(letra){
@@ -220,6 +229,7 @@ function esVocal(letra){
 esVocal(letra);
 ```
 ### ejercicio_20.js
+Escribir un programa para solicitar al usuario tres números y mostrar en pantalla el menor de los tres.
 ```javascript
 let num_1 = parseInt(prompt("Ingrese el primer número: "));
 let num_2 = parseInt(prompt("Ingrese el segundo número: "));
