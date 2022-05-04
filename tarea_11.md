@@ -1,11 +1,13 @@
 # Entrega Tarea 11 JavaScript
 
 ## ejercicio_1.js
+Escribir un programa que solicite al usuario que ingrese su nombre. El nombre se debe almacenar en una variable llamada nombre. A continuación, se debe mostrar en pantalla el texto “Ahora estas en la matrix, [usuario]”, donde “[usuario]” se reemplazará por el nombre que se haya ingresado.
 ```javascript
 var usuario = prompt("Ingresen su nombre : ");
 console.log("Ahora estás en la matrix, " + usuario);
 ```
 ## ejercicio_2.js
+Escribir un programa que solicite al usuario ingresar un número con decimales y almacenarlo en una variable, el programa debe solicitar al usuario que ingrese un número entero y guardarlo en otra variable. En una tercera variable se deberá guardar el resultado de la suma de los dos números ingresados por el usuario. Por último, se deberá mostrar en pantalla el texto “El resultado de la suma es [suma]”, donde “[suma]” se reemplazará por el resultado de la operación.
 ```javascript
 var decimal = parseFloat(prompt("Ingrese un numero decimal: "));
 var entero = parseInt(prompt("Ingrese un numero entero: "));
@@ -15,6 +17,7 @@ console.log("El segundo numero es: " +entero);
 console.log("El resultado de la suma es: " +suma);
 ```
 ### ejercicio_3.js
+Escribir un programa que solicite al usuario dos números y los almacene en dos variables. En otra variable, almacenará el resultado de la suma de esos dos números y luego mostrará ese resultado en pantalla. A continuación, el programa debe solicitar al usuario que ingrese un tercer número, el cual se debe almacenar en una variable. Por último, mostrara en pantalla el resultado de la multiplicación de este nuevo número por el resultado de la suma anterior.
 ```javascript
 var pri_num = parseFloat(prompt("Ingrese el primer número: "));
 var seg_num = parseFloat(prompt("Ingrese el segundo número: "));
@@ -28,6 +31,7 @@ console.log("El tercer numero es: " +ter_num);
 console.log("El resultado de la multiplicación es: " +mult);
 ```
 ### ejercicio_4.js
+Escribir un programa que solicite al usuario ingresar la cantidad de kilómetros recorridos por una motocicleta y la cantidad de litros de combustible que consumió durante ese recorrido. Mostar el consumo de combustible por kilometro 
 ```javascript
 var kilometros = parseFloat(prompt("Ingrese los kilometros recorridos: "));
 var consumo = parseFloat(prompt("Ingrese los litros de combustible consumidos: "));
@@ -37,6 +41,7 @@ var litrosxKm =kilometros/consumo
 console.log("El consumo por kilometro es : " +litrosxKm + " litros")
 ```
 ### ejercicio_5.js
+Escribir un programa que solicite al usuario el ingreso de una  temperartura en escala Fahrenheit (debe permitir decimales) y le muestre el equivalente en grados Celcius. La formula para este calculo es celcius = (5/9)*(Fahrenheit-32)
 ```javascript
 var tem_far = parseFloat(prompt("Ingrese la tempreatura en Fahrenheit: "));
 var temp_celsius = parseFloat((5/9)*(tem_far-32));
@@ -44,6 +49,7 @@ console.log("La temperatura en grados Fahrenheit es: "+tem_far);
 console.log("la temperatura en grados Celsius es: "+temp_celsius);
 ```
 ### ejercicio_6.js
+Escribir un programa que solicite al usuario ingresar tres numeros para luego mostrarle el promedio de los tres.
 ```javascript
 var num_1 = parseFloat(prompt("Ingrese el primer número: "));
 var num_2 = parseFloat(prompt("Ingrese el segundo número: "));
