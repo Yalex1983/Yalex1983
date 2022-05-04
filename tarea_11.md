@@ -218,11 +218,15 @@ Escribir un programa que solicite al usuario una letra y, si es vocal, muestre e
 ```javascript
 let letra = prompt("Ingrese una letra : ");
 function esVocal(letra){
-  if(["a", "e", "i", "o", "u"].includes(letra.toLowerCase())){
-    console.log("la letra: " +letra)
+  if(letra.length !== 1){
+    console.log("No se puede procesar el dato, debe ser solo una letra")
+  }
+    else if(["a", "e", "i", "o", "u"].includes(letra.toLowerCase())){
+    console.log("la letra: " + letra)
     console.log("Es vocal")
-  }else {
-    console.log("la letra: " +letra)
+    }
+    else {
+    console.log("la letra: " + letra)
     console.log("No es vocal")
   }
 }
