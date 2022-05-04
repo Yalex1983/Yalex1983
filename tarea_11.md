@@ -11,10 +11,10 @@ Escribir un programa que solicite al usuario ingresar un número con decimales y
 ```javascript
 var decimal = parseFloat(prompt("Ingrese un numero decimal: "));
 var entero = parseInt(prompt("Ingrese un numero entero: "));
-var suma = decimal+entero
-console.log("El primer numero es: " +decimal);
-console.log("El segundo numero es: " +entero);
-console.log("El resultado de la suma es: " +suma);
+var suma = decimal + entero
+console.log("El primer numero es: " + decimal);
+console.log("El segundo numero es: " + entero);
+console.log("El resultado de la suma es: " + suma);
 ```
 ### ejercicio_3.js
 Escribir un programa que solicite al usuario dos números y los almacene en dos variables. En otra variable, almacenará el resultado de la suma de esos dos números y luego mostrará ese resultado en pantalla. A continuación, el programa debe solicitar al usuario que ingrese un tercer número, el cual se debe almacenar en una variable. Por último, mostrara en pantalla el resultado de la multiplicación de este nuevo número por el resultado de la suma anterior.
@@ -22,31 +22,31 @@ Escribir un programa que solicite al usuario dos números y los almacene en dos 
 var pri_num = parseFloat(prompt("Ingrese el primer número: "));
 var seg_num = parseFloat(prompt("Ingrese el segundo número: "));
 var suma =pri_num+seg_num
-console.log("El primer numero es: " +pri_num);
-console.log("El segundo numero es: " +seg_num);
-console.log("El resultado de la suma es: " +suma);
+console.log("El primer numero es: " + pri_num);
+console.log("El segundo numero es: " + seg_num);
+console.log("El resultado de la suma es: " + suma);
 var ter_num =  parseFloat(prompt("Ingrese el tercer número: "));
-var mult = suma*ter_num
-console.log("El tercer numero es: " +ter_num);
-console.log("El resultado de la multiplicación es: " +mult);
+var mult = suma * ter_num
+console.log("El tercer numero es: " + ter_num);
+console.log("El resultado de la multiplicación es: " + mult);
 ```
 ### ejercicio_4.js
 Escribir un programa que solicite al usuario ingresar la cantidad de kilómetros recorridos por una motocicleta y la cantidad de litros de combustible que consumió durante ese recorrido. Mostar el consumo de combustible por kilómetro
 ```javascript
 var kilometros = parseFloat(prompt("Ingrese los kilometros recorridos: "));
 var consumo = parseFloat(prompt("Ingrese los litros de combustible consumidos: "));
-console.log("los kilometros recorridos son : " +kilometros + " Km");
-console.log("El consumo de combustible es : " +consumo + " litros")
+console.log("los kilometros recorridos son : " + kilometros + " Km");
+console.log("El consumo de combustible es : " + consumo + " litros")
 var litrosxKm =kilometros/consumo
-console.log("El consumo por kilometro es : " +litrosxKm + " litros")
+console.log("El consumo por kilometro es : " + litrosxKm + " litros")
 ```
 ### ejercicio_5.js
 Escribir un programa que solicite al usuario el ingreso de una temperatura en escala Fahrenheit (debe permitir decimales) y le muestre el equivalente en grados Celsius. La fórmula para este cálculo es Celsius = (5/9) * (Fahrenheit-32)
 ```javascript
 var tem_far = parseFloat(prompt("Ingrese la tempreatura en Fahrenheit: "));
-var temp_celsius = parseFloat((5/9)*(tem_far-32));
-console.log("La temperatura en grados Fahrenheit es: "+tem_far);
-console.log("la temperatura en grados Celsius es: "+temp_celsius);
+var temp_celsius = parseFloat((5/9) * (tem_far - 32));
+console.log("La temperatura en grados Fahrenheit es: " + tem_far);
+console.log("la temperatura en grados Celsius es: " + temp_celsius);
 ```
 ### ejercicio_6.js
 Escribir un programa que solicite al usuario ingresar tres números para luego mostrarle el promedio de los tres.
@@ -55,26 +55,26 @@ var num_1 = parseFloat(prompt("Ingrese el primer número: "));
 var num_2 = parseFloat(prompt("Ingrese el segundo número: "));
 var num_3 = parseFloat(prompt("Ingrese el tercer número: "));
 var prom = (num_1+num_2+num_3)/3
-console.log("El primer número es: "+ num_1);
-console.log("El segundo número es: "+ num_2);
-console.log("El tercer número es: "+ num_3);
-console.log("El promedio de los números es: "+ prom);
+console.log("El primer número es: " + num_1);
+console.log("El segundo número es: " + num_2);
+console.log("El tercer número es: " + num_3);
+console.log("El promedio de los números es: " + prom);
 ```
 ### ejercicio_7.js
 Escribir un programa que solicite al usuario un número y le reste 15%, almacenando todo en una única variable. A continuación, mostrar el resultado final en pantalla.
 ```javascript
 var numero = parseFloat(prompt("Ingrese el un número: "));
-console.log("El número ingresado es: "+ numero);
-var por100 = (numero-(numero*0.15))
-console.log("descontando el 15% queda : "+ por100);
+console.log("El número ingresado es: " + numero);
+var por100 = (numero - (numero*0.15))
+console.log("descontando el 15% queda : " + por100);
 ```
 ### ejercicio_8.js
 Escribir un programa que solicite al usuario el ingreso de dos palabras, las cuales se guardarán en dos variables distintas. A continuación, almacenará en una variable la concatenación de la primera palabra, más un espacio, más la segunda palabra. Mostar este resultado en pantalla.
 ```javascript
 var palabra_1 = (prompt("Ingrese la primera palabra: "));
 var palabra_2 = (prompt("Ingrese la segunda palabra: "));
-console.log("La primera palabra es: "+ palabra_1);
-console.log("la segunda palabra es: "+ palabra_2);
+console.log("La primera palabra es: " + palabra_1);
+console.log("la segunda palabra es: " + palabra_2);
 var union = palabra_1+ " " + palabra_2
 console.log(union);
 ```
@@ -82,10 +82,10 @@ console.log(union);
 Escribir un programa que solicite al usuario el ingreso de un texto y almacene ese texto en una variable. A continuación, mostraren pantalla la primera letra del texto ingresado. Luego solicitar que ingrese un número menor a la cantidad de caracteres que tiene el texto que ingresó (por ejemplo, si escribe la palabra “HOLA”, tendrá que ser un numero entre 0 y 3) y almacenar ese número en una variable llamada índice. Mostar en pantalla el carácter del texto ubicado en la posición dada por índice.
 ```javascript
 let texto = (prompt("Ingrese un texto: "));
-console.log("El texto es: "+ texto);
+console.log("El texto es: " + texto);
 console.log("La primera letra del texto es :" + texto.charAt(0));
 let indice = (prompt("Ingrese un numero positivo nenor a " + texto.length));
-console.log("El numero menor que " + texto.length + " es: " +indice)
+console.log("El numero menor que " + texto.length + " es: " + indice)
 console.log("El caracter en la posición " + indice +" es: " + texto.charAt(indice));
 ```
 ### ejercicio_10.js
@@ -105,7 +105,7 @@ else{
 Escribir un programa que le solicite al usuario ingresar una fecha formada por números, donde los primeros dos representan el día, los siguientes dos el mes y los últimos cuatro el año (DDMMAAAA). Finalmente, mostrar al usuario la fecha con formato DD / MM / AAAA.
 ```javascript
 let fecha = (prompt("Ingrese un numeroformato fecha DDMMAAA: "));
-console.log(" Fecha en formato DDMMAAAA: " +fecha)
+console.log(" Fecha en formato DDMMAAAA: " + fecha)
 console.log(fecha.charAt(0)+fecha.charAt(1)+"/"+fecha.charAt(2)+fecha.charAt(3)+"/"+fecha.charAt(4)+fecha.charAt(5)+fecha.charAt(6)+fecha.charAt(7))
 ```
 ### ejercicio_12.js
@@ -127,7 +127,7 @@ Escribir un programa que solicite al usuario su edad y la guarde en una variable
 let edad = (prompt("Ingresa tu edad: "));
 console.log(" Tu edad: " + edad);
 let articulo = (prompt("Ingrese la cantidad de artículos comprados: "));
-console.log("Artículos comprados: "+ articulo)
+console.log("Artículos comprados: " + articulo)
 
 if (edad>=18 && articulo >=2){
   console.log(true)   
@@ -140,7 +140,7 @@ else{
 Escribir un programa que, dada una cadena de texto por el usuario, imprima True si la cantidad de caracteres en la cadena es un número inpar, o False si no lo es.
 ```javascript
 let texto = (prompt("Ingrese una Frase: "));
-console.log("La Frase es: "+ texto);
+console.log("La Frase es: " + texto);
 
 if (texto.length%2 ==0){
   console.log(true)   
@@ -189,7 +189,7 @@ let numero = parseFloat(prompt ("Ingrese un Número: "));
 let aux
 
 if (numero < 0){
-    aux = numero *-1
+    aux = numero * -1
 }
 else{
     aux = numero
