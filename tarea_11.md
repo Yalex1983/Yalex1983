@@ -61,6 +61,7 @@ console.log("El tercer número es: "+ num_3);
 console.log("El promedio de los números es: "+ prom);
 ```
 ### ejercicio_7.js
+Escribir un programa que solicite al usuario un número y le reste 15%, almacenando todo en una única variable. A continuación, mostrar el resultado final en pantalla.
 ```javascript
 var numero = parseFloat(prompt("Ingrese el un número: "));
 console.log("El número ingresado es: "+ numero);
@@ -68,6 +69,7 @@ var por100 = (numero-(numero*0.15))
 console.log("descontando el 15% queda : "+ por100);
 ```
 ### ejercicio_8.js
+Escribir un programa que solicite al usuario el ingreso de dos palabras, las cuales se guardarán en dos variables distintas. A continuación, almacenará en una variable la concatenación de la primera palabra, más un espacio, más la segunda palabra. Mostar este resultado en pantalla.
 ```javascript
 var palabra_1 = (prompt("Ingrese la primera palabra: "));
 var palabra_2 = (prompt("Ingrese la segunda palabra: "));
@@ -77,6 +79,7 @@ var union = palabra_1+ " " + palabra_2
 console.log(union);
 ```
 ### ejercicio_9.js
+Escribir un programa que solicite al usuario el ingreso de un texto y almacene ese texto en una variable. A contonuación, mostraren pantalla la primera letra del texto ingresado. Luego solcictar que ingrese un numero menor a la cantidad de caracteres que tiene el texto que ongresó (por ejemplo, si escribe la palabra “HOLA”, tendrá que ser un numero entre 0 y 3) y almacenar ese número en una variable llamada indice. Mostar en pantalla el carácter del texto ubicado en la posición dada por indice.
 ```javascript
 let texto = (prompt("Ingrese un texto: "));
 console.log("El texto es: "+ texto);
@@ -86,6 +89,7 @@ console.log("El numero menor que " + texto.length + " es: " +indice)
 console.log("El caracter en la posición " + indice +" es: " + texto.charAt(indice));
 ```
 ### ejercicio_10.js
+Escribir un programa que solicite al ususario que ingrese cuántos shows musicales ha visto en el último año y almacene ese número en una variable. A continuación mostrar un valor de verdad (True o False) que indique si ha visto mas de tres shows. 
 ```javascript
 let show = (prompt("Cuantos Shows musicales a visto en el último año?: "));
 console.log(" Shows vistos en el ultimo año: " +show)
