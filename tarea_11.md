@@ -214,7 +214,7 @@ console.log("El Segundo numero ingresado es: " + numero_2);
 console.log("El numero mayor es: " + aux);
 ```
 ### ejercicio_19.js
-Escribir un programa que solicite al usuario una letra y, si es vocal, muestre el mensaje “Es vocal”. Verificar si el ususario ingresó un String de mas de un carácter y, en ese caso, informarle que no se puede procesar el dato.
+Escribir un programa que solicite al usuario una letra y, si es vocal, muestre el mensaje “Es vocal”. Verificar si el usuario ingresó un String de mas de un carácter y, en ese caso, informarle que no se puede procesar el dato.
 ```javascript
 let letra = prompt("Ingrese una letra : ");
 function esVocal(letra){
